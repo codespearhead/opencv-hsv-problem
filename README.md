@@ -4,7 +4,7 @@ Struggling to detect colors with OpenCV in the HSV color space? You're not alone
 
 ## TL;DR
 
-Ao invés de inserir números escalares para os limites do intervalo da cor no método inRange do OpenCV, insira uma equação aritmética com a tolerância, como ilustrado abaixo e em 01-Notebook.ipynb, e o método por is só irá unir os intervalos descontínuos.
+Ao invés de inserir números escalares para os limites do intervalo da cor no método inRange do OpenCV, insira uma equação aritmética com a tolerância, como ilustrado abaixo e em 01-Notebook.ipynb, e o método por si só irá unir os intervalos descontínuos.
 
 ```
 ❌ cv2.inRange(
